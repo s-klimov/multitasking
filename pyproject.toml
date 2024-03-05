@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "materials"
+version = "0.1.0"
+description = "Многопоточность, учебные задачи"
+authors = ["Sergei Klimov <s.klimov@bk.ru>"]
+readme = "README.md"
+packages = [{include = "tasks"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
